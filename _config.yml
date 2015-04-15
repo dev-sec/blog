@@ -32,7 +32,7 @@ social:
     desc:         Fork us on github
 
   - icon:         feed
-    url:          http://hardening.io/atom.xml
+    url:          http://hardening.io/blog/atom.xml
     desc:         Subscribe to our feed
 
 menu:
