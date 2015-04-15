@@ -7,8 +7,8 @@ permalink:	/article/:title
 title:            Hardening Framework Blog
 tagline:          'blog'
 description:      'Hardening Framework Blog'
-url:              http://hardening.io/
-baseurl:          blog/
+url:              http://hardening.io
+baseurl:          /blog
 commentsystem:    google
 disqus:           example
 
