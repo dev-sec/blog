@@ -63,7 +63,7 @@ Next, we selected the supported Linux distributions for our first release:
 
 As a small team, we were required to automated the tests, otherwise this would not be manageable. We used Travis for code linting and style checks and complement it with a Jenkins environment, that spins up all supported Linux Vms in OpenStack, deploys the hardening, and runs the Serverspec tests and finally sends a report back. Those test are triggered with every Github Commit.
 
-To get the Hardening Framework up and running easily, we have documented an examples for Puppet and Chef:
+To get the Hardening Framework up and running easily, we have documented examples for Puppet and Chef:
 
  * [https://github.com/hardening-io/example-puppet-hardening](https://github.com/hardening-io/example-puppet-hardening)
  * [https://github.com/hardening-io/example-chef-hardening](https://github.com/hardening-io/example-chef-hardening)
@@ -97,5 +97,5 @@ The project has evolved over the last year. It has become a mature tooling and i
 * [Edmund Haselwanter](https://github.com/ehaselwanter)
 * [Dominik Richter](https://github.com/arlimus)
 
-Thank you very much!
+Thank you very much! We are looking forward to continue working with you.
 
