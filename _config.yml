@@ -37,7 +37,7 @@ social:
 
 menu:
   - title:        Home
-    url:          /
+    url:          /blog
 
 copyright:
   author:         Hardening Framework Team
