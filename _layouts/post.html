@@ -3,7 +3,7 @@ layout: default
 article: true
 ---
 
-<header class="{% if page.dark %}dark{% else %}clean{% endif %}" style="background-image: url({% if page.image.url %}{{ page.image.url }}{% else %}{{ site.cover }}{% endif %}); height: 100%; {% if site.parallax != true %}background-attachment: scroll;{% endif %}" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+<header class="{% if page.dark %}dark{% else %}clean{% endif %}" style="background-image: url({% if page.image.url %}{{ site.baseurl }}{{ page.image.url }}{% else %}{{ site.baseurl }}{{ site.cover }}{% endif %}); height: 100%; {% if site.parallax != true %}background-attachment: scroll;{% endif %}" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
 	{% if page.video %}
 		<video id="bg-video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" data-stellar-ratio="0.5">
 		{% for format in page.video %}
