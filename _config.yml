@@ -36,8 +36,11 @@ social:
     desc:         Subscribe to our feed
 
 menu:
-  - title:        Home
+  - title:        Blog
     url:          /blog
+
+  - title:        Home
+    url:          /
 
 copyright:
   author:         Hardening Framework Team
