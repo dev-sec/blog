@@ -17,7 +17,7 @@ article: true
 		{% if page.quote %}
 			<h2>{{ page.quote }}</h2>
 		{% endif %}
-		<a class="site-title" href="{{ page.author_link }}"><div class="site-icon-small" style="background-image: url({{ page.author_image }});"></div>{{ page.author }}</a>, in {{ page.date | date_to_long_string }}
+		<a class="site-title" href="{{ page.author_link }}"><div class="site-icon-small" style="background-image: url({{ site.baseurl }}{{ page.author_image }});"></div>{{ page.author }}</a>, in {{ page.date | date_to_long_string }}
 	</div>
 	{% if page.image.source %}
 	<div id="img-info" data-stellar-ratio="0.5">
