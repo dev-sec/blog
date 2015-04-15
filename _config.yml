@@ -1,0 +1,54 @@
+# Dependencies
+markdown:	kramdown
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:            Hardening Framework Blog
+tagline:          'blog'
+description:      'Hardening Framework Blog'
+url:              http://hardening.io/blog
+baseurl:          
+commentsystem:    google
+disqus:           example
+
+author:
+  name:           Christoph Hartmann
+  url:            https://twitter.com/chri_hartmann
+
+paginate:         5
+
+# Custom vars
+icon:             /assets/images/hardening_logo.png
+cover:            /assets/images/97f43358.background.jpeg
+
+social:
+  - icon:         twitter
+    url:          https://twitter.com/hardening_io
+    desc:         Follow us on twitter
+
+  - icon:         github
+    url:          https://github.com/hardening-io
+    desc:         Fork us on github
+
+  - icon:         feed
+    url:          http://hardening.io/atom.xml
+    desc:         Subscribe to our feed
+
+menu:
+  - title:        Home
+    url:          /
+
+copyright:
+  author:         Hardening Framework Team
+  url:            http://hardening.io
+  type_title:     Some rights reserved
+  type_url:       http://creativecommons.org/licenses/by-nc/2.5
+
+parallax:         false
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:  UA-45216258-2
+
+# Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
+theme_color:       7E9576
