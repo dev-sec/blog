@@ -51,7 +51,7 @@ copyright:
 parallax:         true
 
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
-google_analytics:  UA-45216258-2
+google_analytics:  UA-45216258-3
 
 # Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
 theme_color:       7E9576
