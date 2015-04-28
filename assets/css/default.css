@@ -362,6 +362,26 @@ pre code {
 	opacity: 1;
 }
 
+.social .network {
+	padding-right: 10px;
+	display: inline;
+}
+
+.social .twitter {
+	top: 5px;
+	position: relative;
+}
+
+.social.center {
+	text-align: center;
+}
+
+.hn-link {
+    display: inline-block;
+    padding: 0px 0px 0px 21px;
+    background: url("../images/social/yc-favicon.png") no-repeat scroll left center transparent;
+}
+
 .menu a:hover {
 	-webkit-opacity: 0.75;
 	opacity: 0.75;
