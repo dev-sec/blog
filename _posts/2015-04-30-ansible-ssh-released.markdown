@@ -23,4 +23,4 @@ The [Hardening Framework](http://hardening.io/) provides best-practice security 
 
 The module is available via [Ansible Galaxy](https://galaxy.ansible.com/list#/roles/3576), now. 
 
-As a next step, we plan to add support more modules. `ansible-os-hardening` is already in the works. Stay tuned and follow us on [Twitter](https://twitter.com/hardening_io)
+As a next step, we plan to add support more modules. `ansible-os-hardening` is already in the works. Stay tuned and follow us on [Twitter](https://twitter.com/hardening_io).
