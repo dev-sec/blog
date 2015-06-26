@@ -25,7 +25,7 @@ In these two months [Sebastian Gumprich](https://www.zufallsheld.de) implemented
  
 As always, this role supports Debian- and Enterprise Linux-based operating systems.
 
-You can find the role on [Github](https://github.com/hardening-io/ansible-os-hardening/) and on [Ansible Galaxy]().
+You can find the role on [Github](https://github.com/hardening-io/ansible-os-hardening/) and on [Ansible Galaxy](https://galaxy.ansible.com/list#/roles/4248).
 
 Found a problem? Want to help? Open up a issue or pull request or join our [Gitter Chatroom](https://gitter.im/hardening-io) to chat directly with us!
 
