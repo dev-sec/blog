@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ansible os-hardening role released"
-date:   2015-06-23 18:00:00
+date:   2015-07-13 18:00:00
 image:
       url: /assets/article_images/2015-06-23-ansible-os/17905776305_0172f47d95_k.jpg
 video: false
@@ -13,7 +13,7 @@ author_image: "/assets/images/basti.png"
 author_link: "https://www.zufallsheld.de"
 ---
 
-After two months of development the [Hardening Framework](http://hardening.io/) team is glad to announce that we created our second Ansible role: [ansible-os-hardening](https://github.com/hardening-io/ansible-os-hardening/).
+After two months of development the [Hardening Framework](http://hardening.io/) team is glad to announce that we created our second Ansible role: [ansible-os-hardening](https://github.com/hardening-io/ansible-os-hardening/). This role hardens a Linux operating system according to best practices and implements the same guidelines as our successful [Chef](https://github.com/hardening-io/chef-os-hardening) and [Puppet](https://github.com/hardening-io/puppet-os-hardening) implementations.
 
 In these two months [Sebastian Gumprich](https://www.zufallsheld.de) implemented with the help of [Christoph Hartmann](https://github.com/chris-rock) and [Dominik Richter](https://github.com/arlimus) the following changes:
 
@@ -27,7 +27,6 @@ As always, this role supports Debian- and Enterprise Linux-based operating syste
 
 You can find the role on [Github](https://github.com/hardening-io/ansible-os-hardening/) and on [Ansible Galaxy](https://galaxy.ansible.com/list#/roles/4248).
 
-Found a problem? Want to help? Open up a issue or pull request or join our [Gitter Chatroom](https://gitter.im/hardening-io) to chat directly with us!
-
+Found a problem? Want to help? Open up a issue or pull request or join our [Gitter Chatroom](https://gitter.im/hardening-io/general) to chat directly with us!
 
 Next on? MySQL hardening! Be sure to follow us on [Twitter](https://twitter.com/hardening_io) for the latest updates.
