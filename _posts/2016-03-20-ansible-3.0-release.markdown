@@ -12,7 +12,7 @@ author_link: "https://www.zufallsheld.de"
 ---
 
 The Hardening Framework once again updates its framework's Ansible modules, making them compatible with the new Ansible 2.0 release!
-But that's not all. Next to bug-fixes and support for additional operating systems, this release focused on making the [os-hardening](https://github.com/hardening-io/ansible-os-hardening) and [ssh-hardening](https://github.com/hardening-io/ansible-ssh-hardening) roles more configurable, allowing you to alter them to your needs while still providing a strong baseline security.
+But that's not all. Next to bug-fixes and support for additional operating systems, this release focused on making the [os-hardening](https://github.com/hardening-io/ansible-os-hardening) and [ssh-hardening](https://github.com/hardening-io/ansible-ssh-hardening) roles more configurable. This allows you to alter them to your needs while still providing a strong baseline security.
 
 As always, thanks for all the contributors!
 
