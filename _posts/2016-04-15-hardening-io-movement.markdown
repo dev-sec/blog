@@ -9,9 +9,13 @@ theme_color: 302F2D
 author: 'Artem Sidorenko'
 author_image: "/assets/images/artem.jpeg"
 author_link: "https://www.sidorenko.io"
+
+excerpt_separator: <!--more-->
 ---
 
-Due to unfortunate circumstances we can't use hardening.io domain anymore. Therefore Hardening Framework moved to a new home:
+Due to unfortunate circumstances we can't use hardening.io domain anymore. Therefore Hardening Framework moved to a new home
+
+<!--more-->
 
  - [http://dev-sec.io](http://dev-sec.io)
  - [https://github.com/dev-sec](https://github.com/dev-sec)
