@@ -28,7 +28,7 @@ social:
     desc:         Follow us on twitter
 
   - icon:         github
-    url:          https://github.com/hardening-io
+    url:          https://github.com/dev-sec
     desc:         Fork us on github
 
   - icon:         feed
