@@ -15,12 +15,12 @@ author_link: "https://twitter.com/chri_hartmann"
 
 We are happy to announce Puppet 4 support for the [Hardening Framework](http://hardening.io/). All puppet modules have been updated and are continously tested for Puppet 4 support, now:
 
- * [Puppet OS Hardening](https://github.com/hardening-io/puppet-os-hardening/releases/tag/1.1.2)
- * [Puppet SSH hardening](https://github.com/hardening-io/puppet-ssh-hardening/releases/tag/1.0.5)
- * [Puppet MySql Hardening](https://github.com/hardening-io/puppet-mysql-hardening/releases/tag/1.0.2)
- * [Puppet Postgres Hardening](https://github.com/hardening-io/puppet-postgres-hardening)
- * [Puppet Apache Hardening](https://github.com/hardening-io/puppet-apache-hardening)
- * [Puppet Nginx Hardening](https://github.com/hardening-io/puppet-nginx-hardening)
+ * [Puppet OS Hardening](https://github.com/dev-sec/puppet-os-hardening/releases/tag/1.1.2)
+ * [Puppet SSH hardening](https://github.com/dev-sec/puppet-ssh-hardening/releases/tag/1.0.5)
+ * [Puppet MySql Hardening](https://github.com/dev-sec/puppet-mysql-hardening/releases/tag/1.0.2)
+ * [Puppet Postgres Hardening](https://github.com/dev-sec/puppet-postgres-hardening)
+ * [Puppet Apache Hardening](https://github.com/dev-sec/puppet-apache-hardening)
+ * [Puppet Nginx Hardening](https://github.com/dev-sec/puppet-nginx-hardening)
 
 In addition to Puppet 4, we still test our implementation against Puppet 2.7 & Puppet 3.6. This enables you to smoothly upgrade the Hardening Framwork.
 
