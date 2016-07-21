@@ -94,7 +94,7 @@ The project has evolved over the last year. It has become a mature tooling and i
 * [Patrick Meier](https://github.com/atomic111)
 * [Bernhard Weisshuhn (a.k.a. bernhorst)](https://github.com/bkw)
 * [Christoph Hartmann](https://github.com/chris-rock)
-* [Edmund Haselwanter](https://github.com/ehaselwanter)F
+* [Edmund Haselwanter](https://github.com/ehaselwanter)
 * [Dominik Richter](https://github.com/arlimus)
 
 Thank you very much! We are looking forward to continue working with you.
