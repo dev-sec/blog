@@ -15,7 +15,7 @@ author_link: "https://twitter.com/chri_hartmann"
 
 # Next
 
-We are happy to announce, that the Hardening Framework moved to its [new home](https://github.com/hardening-io). As a vendor neutral project we aim to provide best-practice system hardening for various industries. We are now actively searching for supporters to build up the next level of this project. [Get in touch with us.](mailto:chris@lollyrock.com)
+We are happy to announce, that the Hardening Framework moved to its [new home](https://github.com/dev-sec). As a vendor neutral project we aim to provide best-practice system hardening for various industries. We are now actively searching for supporters to build up the next level of this project. [Get in touch with us.](mailto:chris@lollyrock.com)
 
 # Retrospection
 
@@ -46,12 +46,12 @@ We identified some of the widely used open source modules that require hardening
 
 For every project we started an implementation for Puppet and Chef like e.g. `os-hardening`:
 
- * [https://github.com/hardening-io/chef-os-hardening](https://github.com/hardening-io/chef-os-hardening)
- * [https://github.com/hardening-io/puppet-os-hardening](https://github.com/hardening-io/puppet-os-hardening)
+ * [https://github.com/dev-sec/chef-os-hardening](https://github.com/dev-sec/chef-os-hardening)
+ * [https://github.com/dev-sec/puppet-os-hardening](https://github.com/dev-sec/puppet-os-hardening)
 
 For both implementations of the `os-hardening` module, we use a common test environment. [It combines all tests under one framework](http://ehaselwanter.com/en/blog/2014/05/08/using-test-kitchen-with-puppet/). We used [test-kitchen](http://kitchen.ci/) for Puppet and Chef tests:
 
- * [https://github.com/hardening-io/tests-os-hardening](https://github.com/hardening-io/tests-os-hardening)
+ * [https://github.com/dev-sec/tests-os-hardening](https://github.com/dev-sec/tests-os-hardening)
 
 Next, we selected the supported Linux distributions for our first release:
 
@@ -65,8 +65,8 @@ As a small team, we were required to automated the tests, otherwise this would n
 
 To get the Hardening Framework up and running easily, we have documented examples for Puppet and Chef:
 
- * [https://github.com/hardening-io/example-puppet-hardening](https://github.com/hardening-io/example-puppet-hardening)
- * [https://github.com/hardening-io/example-chef-hardening](https://github.com/hardening-io/example-chef-hardening)
+ * [https://github.com/dev-sec/example-puppet-hardening](https://github.com/dev-sec/example-puppet-hardening)
+ * [https://github.com/dev-sec/example-chef-hardening](https://github.com/dev-sec/example-chef-hardening)
 
 The project has evolved over the last year. It has become a mature tooling and is running on thousands of production systems. A special thanks to all contributors who helped to build this amazing project:
 
