@@ -1,4 +1,4 @@
-# Hardening Framework Blog
+# DevSec Hardening Framework Blog
 
 ## Test
 
