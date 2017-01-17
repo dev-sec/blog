@@ -4,10 +4,10 @@ markdown:	kramdown
 permalink:	/article/:title
 
 # Setup
-title:            Hardening Framework Blog
+title:            DevSec Hardening Framework Blog
 tagline:          'blog'
-description:      'Hardening Framework Blog'
-url:              http://hardening.io
+description:      'DevSec Hardening Framework Blog'
+url:              http://dev-sec.io
 baseurl:          /blog
 commentsystem:    google
 disqus:           example
@@ -43,8 +43,8 @@ menu:
     url:          /
 
 copyright:
-  author:         Hardening Framework Team
-  url:            http://hardening.io
+  author:         DevSec Hardening Framework Team
+  url:            http://dev-sec.io
   type_title:     Some rights reserved
   type_url:       http://creativecommons.org/licenses/by-nc/2.5
 
