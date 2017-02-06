@@ -44,22 +44,22 @@ With InSpec we are able to document and implement our security checks in one lan
 
 Operating System Baselines:
 
-- [Linux Baseline](github.com/dev-sec/linux-baseline)
-- [SSH Baseline](github.com/dev-sec/ssh-baseline)
-- [Windows Baseline](github.com/dev-sec/windows-baseline)
+- [Linux Baseline](https://github.com/dev-sec/linux-baseline)
+- [SSH Baseline](https://github.com/dev-sec/ssh-baseline)
+- [Windows Baseline](https://github.com/dev-sec/windows-baseline)
 
 Patch Baselines:
 
-- [Linux Patch Baseline](github.com/dev-sec/linux-patch-benchmark)
-- [Windows Patch Baseline](github.com/dev-sec/windows-patch-benchmark)
+- [Linux Patch Baseline](https://github.com/dev-sec/linux-patch-benchmark)
+- [Windows Patch Baseline](https://github.com/dev-sec/windows-patch-benchmark)
 
 Application Baselines:
 
-- [PostgreSQL Baseline](github.com/dev-sec/postgres-baseline)
-- [MySQL Baseline](github.com/dev-sec/mysql-baseline)
-- [Nginx Baseline](github.com/dev-sec/nginx-baseline)
-- [Apache Baseline](github.com/dev-sec/apache-baseline)
-- [PHP Baseline](github.com/dev-sec/mysql-baseline)
+- [PostgreSQL Baseline](https://github.com/dev-sec/postgres-baseline)
+- [MySQL Baseline](https://github.com/dev-sec/mysql-baseline)
+- [Nginx Baseline](https://github.com/dev-sec/nginx-baseline)
+- [Apache Baseline](https://github.com/dev-sec/apache-baseline)
+- [PHP Baseline](https://github.com/dev-sec/mysql-baseline)
 
 
 To use the DevSec Hardening Framework baselines just install [InSpec](). All our baselines are registered in Chef Supermarket:
