@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chef Software is contributing OpenStack Baseline"
-date:   2017-01-17 09:00:00
+date:   2017-04-13 09:00:00
 video: false
 comments: true
 theme_color: 302F2D
