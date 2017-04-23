@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New os-, ssh- and mysql-hardening releases"
+title: "New Ansible os-, ssh- and mysql-hardening releases"
 date:   2017-04-23 13:00:00
 video: false
 comments: true
@@ -39,33 +39,44 @@ We removed support for Ansible 1.9 in all three roles, so we can leverage the ne
 
 - Change the ssh_client_ports list variable into a simple non-list variable named ssh_client_port.  [\#84](https://github.com/dev-sec/ansible-ssh-hardening/pull/84) ([fullyint](https://github.com/fullyint))
   - Before:
-  ```
-    {% for port in ssh_client_ports -%}
-    Port {{port}}
-    {% endfor %}
-  ```
+  - {% highlight jinja %}
+{% raw %}
+{% for port in ssh_client_ports -%}
+Port {{port}}
+{% endfor %}
+ {% endraw %}
+{% endhighlight %}
   - After:
-  ```
-     Port {{ ssh_client_port }}
-  ```
+  - {% highlight jinja %}
+{% raw %}
+Port {{ ssh_client_port }}
+{% endraw %}
+{% endhighlight %}
 
 - Fix ssh config to handle custom options per Host [\#83](https://github.com/dev-sec/ansible-ssh-hardening/pull/83) ([fullyint](https://github.com/fullyint))
   - Before:
-  ```
-    # one or more hosts, to which ssh-client can connect to. Default is empty, but should be configured for security reasons!
+  - {% highlight jinja %}
+{% raw %}
+    # one or more hosts, to which ssh-client can connect to.
+# Default is empty, but should be configured for security reasons!
     ssh_remote_hosts: []           # ssh
-  ```
+{% endraw %}
+{% endhighlight %}
+
   - After:
-  ```
-    # Hosts with custom options.            # ssh
-    # Example:
-    # ssh_remote_hosts:
-    #   - names: ['example.com', 'example2.com']
-    #     options: ['Port 2222', 'ForwardAgent yes']
-    #   - names: ['example3.com']
-    #     options: ['StrictHostKeyChecking no']
-    ssh_remote_hosts: []
-  ```
+  -  {% highlight jinja %}
+{% raw %}
+# Hosts with custom options.            # ssh
+# Example:
+# ssh_remote_hosts:
+#   - names: ['example.com', 'example2.com']
+#     options: ['Port 2222', 'ForwardAgent yes']
+#   - names: ['example3.com']
+#     options: ['StrictHostKeyChecking no']
+ssh_remote_hosts: []
+{% endraw %}
+{% endhighlight %}
+
 
 ## mysql-hardening
 
