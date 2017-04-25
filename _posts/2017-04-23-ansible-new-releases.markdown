@@ -11,7 +11,9 @@ author_image: "/assets/images/basti.png"
 author_link: "https://www.zufallsheld.de"
 ---
 
-We released new versions of [ansible-os-hardening](https://github.com/dev-sec/ansible-os-hardening), [ansible-ssh-hardening](https://github.com/dev-sec/ansible-ssh-hardening) and [ansible-mysql-hardening](https://github.com/dev-sec/ansible-mysql-hardening)!
+Hey friends,
+
+we released new versions of [ansible-os-hardening](https://github.com/dev-sec/ansible-os-hardening), [ansible-ssh-hardening](https://github.com/dev-sec/ansible-ssh-hardening) and [ansible-mysql-hardening](https://github.com/dev-sec/ansible-mysql-hardening)!
 
 These releases are important to us in multiple ways:
 
@@ -19,9 +21,9 @@ As always, they provide new features and configuration possibilities for you to 
 
 # Complete tests in TravisCI
 
-Furthermore we now leverage the full possibilities of [TravisCI](https://travis-ci.org/dev-sec/) for the [os-hardening](https://travis-ci.org/dev-sec/ansible-ssh-hardening) and [ssh-hardening](https://travis-ci.org/dev-sec/ansible-ssh-hardening) roles. This means that all supported operating systems are now tested and verified online. For that we use customized [docker-images](https://github.com/rndmh3ro/docker-ansible) that have Ansible pre-installed, as well as our [InSpec-tests](https://github.com/dev-sec/?utf8=%E2%9C%93&q=baseline&type=&language=) to verify the roles!
+Furthermore we now leverage the full possibilities of [TravisCI](https://travis-ci.org/dev-sec/) for the [os-hardening](https://travis-ci.org/dev-sec/ansible-ssh-hardening), [ssh-hardening](https://travis-ci.org/dev-sec/ansible-ssh-hardening) and [mysql-hardening](https://travis-ci.org/dev-sec/ansible-mysql-hardening)  roles. This means that all supported operating systems are now tested and verified online. For that we use customized [docker-images](https://github.com/rndmh3ro/docker-ansible) that have Ansible pre-installed, as well as our [InSpec-tests](https://github.com/dev-sec/?utf8=%E2%9C%93&q=baseline&type=&language=) to verify the roles!
 
-The tests are still missing for mysql-hardening and nginx-hardening, because we're facing [some](https://travis-ci.org/dev-sec/ansible-nginx-hardening/jobs/213982228) [issues](https://travis-ci.org/dev-sec/ansible-mysql-hardening/builds/207936527) that seem to be unique to Travis.
+However some operating systems are still missing for mysql-hardening because we're facing some issues that hopefully will be resolved soon!
 
 We're always looking for help! Join us on [GitHub](https://github.com/dev-sec/) or [Gitter chatroom](https://gitter.im/dev-sec/general).
 
@@ -81,9 +83,10 @@ ssh_remote_hosts: []
 ## mysql-hardening
 
 
-- Renamed variables [\#22](https://github.com/dev-sec/ansible-mysql-hardening/pull/22) ([agno01](https://github.com/agno01))
+- Renamed variables in [\#22](https://github.com/dev-sec/ansible-mysql-hardening/pull/22) ([agno01](https://github.com/agno01)) and [\#26](https://github.com/dev-sec/ansible-mysql-hardening/pull/26)
   - renamed `mysql_hardening_mysql_conf` var to `mysql_hardening_mysql_conf_file`
   - introduced `mysql_hardening_mysql_conf_dir` variable
+  - introduced `mysql_cnf_owner` as variable for owner of configuration files
   - set default value of `mysql_hardening_mysql_conf_dir` variable for RedHat, OracleLinux, Debian
   - changed default hardcoded full path in `mysql_hardening_hardening_conf` var to be based on `mysql_hardening_mysql_conf_dir` var
 
@@ -117,3 +120,7 @@ Full [Changelog](https://github.com/dev-sec/ansible-mysql-hardening/releases/tag
 
 
 You can follow us on [Twitter](https://twitter.com/DevSecIO).
+
+Thanks and have a nice and secure day!
+
+Sebastian
