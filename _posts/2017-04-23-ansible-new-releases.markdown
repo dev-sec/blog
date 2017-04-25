@@ -13,7 +13,7 @@ author_link: "https://www.zufallsheld.de"
 
 Hey friends,
 
-we released new versions of [ansible-os-hardening](https://github.com/dev-sec/ansible-os-hardening), [ansible-ssh-hardening](https://github.com/dev-sec/ansible-ssh-hardening) and [ansible-mysql-hardening](https://github.com/dev-sec/ansible-mysql-hardening)!
+We released new versions of [ansible-os-hardening](https://github.com/dev-sec/ansible-os-hardening), [ansible-ssh-hardening](https://github.com/dev-sec/ansible-ssh-hardening) and [ansible-mysql-hardening](https://github.com/dev-sec/ansible-mysql-hardening)!
 
 These releases are important to us in multiple ways:
 
