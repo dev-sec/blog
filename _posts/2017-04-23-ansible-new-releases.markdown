@@ -41,7 +41,7 @@ We removed support for Ansible 1.9 in all three roles, so we can leverage the ne
 
 - Change the ssh_client_ports list variable into a simple non-list variable named ssh_client_port.  [\#84](https://github.com/dev-sec/ansible-ssh-hardening/pull/84) ([fullyint](https://github.com/fullyint))
   - Before:
-  - {% highlight jinja %}
+{% highlight jinja %}
 {% raw %}
 {% for port in ssh_client_ports -%}
 Port {{port}}
@@ -49,7 +49,7 @@ Port {{port}}
  {% endraw %}
 {% endhighlight %}
   - After:
-  - {% highlight jinja %}
+{% highlight jinja %}
 {% raw %}
 Port {{ ssh_client_port }}
 {% endraw %}
@@ -57,7 +57,7 @@ Port {{ ssh_client_port }}
 
 - Fix ssh config to handle custom options per Host [\#83](https://github.com/dev-sec/ansible-ssh-hardening/pull/83) ([fullyint](https://github.com/fullyint))
   - Before:
-  - {% highlight jinja %}
+{% highlight jinja %}
 {% raw %}
     # one or more hosts, to which ssh-client can connect to.
 # Default is empty, but should be configured for security reasons!
@@ -66,7 +66,7 @@ Port {{ ssh_client_port }}
 {% endhighlight %}
 
   - After:
-  -  {% highlight jinja %}
+{% highlight jinja %}
 {% raw %}
 # Hosts with custom options.            # ssh
 # Example:
