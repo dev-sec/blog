@@ -22,14 +22,20 @@ We like to thank Kristian and Schuberg Philis for their amazing work and their e
 
 ## Kubernetes
 
-![Kubernetes][/assets/images/kube.png]
+{: .center}
+![Kubernetes]({{ site.baseurl }}/assets/images/kube.png)
 
 Kubernetes is one of the leading container orchestration platforms from Google and part of [CNCF](https://www.cncf.io/). While our existing [CIS Docker Benchmark](https://github.com/dev-sec/cis-docker-benchmark) verifies a single-node deployment, the Kubernetes profile is going to verify the container orchestration platform. Now, DevSec users have the ability to secure their containers in production. The benchmarks use [InSpec](https://www.inspec.io/) which allows you to adapt and extend the profile to your needs via [profile inheritance](https://www.inspec.io/docs/reference/profiles/). A sample test in InSpec looks like:
 
 ```
 control 'cis-kubernetes-benchmark-1.1.4' do
   title 'Ensure that the --insecure-allow-any-token argument is not set'
-  desc "Do not allow any insecure tokens\n\nRationale: Accepting insecure tokens would allow any token without actually authenticating anything. User information is parsed from the token and connections are allowed."
+  desc "
+     Do not allow any insecure tokens
+     Rationale: Accepting insecure tokens would allow any token without
+     actually authenticating anything. User information is parsed from
+     the token and connections are allowed.
+  "
   impact 1.0
 
   tag cis: 'kubernetes:1.1.4'
