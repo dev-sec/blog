@@ -24,7 +24,7 @@ We like to thank Kristian and Schuberg Philis for their amazing work and their e
 
 ![Kubernetes][/assets/images/kube.png]
 
-Kubernetes is one of the leading container orchestration platforms from Google and part of [CNCF](https://www.cncf.io/). While our existing [CIS Docker Benchmark](https://github.com/dev-sec/cis-docker-benchmark) verifies a single-node deployment, the Kubernetes profile is going to verify the container orchestration platform. Now, DevSec users have the ability to secure their containers in production, no matter if you're using to use Docker or/and Kubernetes. The benchmarks use [InSpec](https://www.inspec.io/) which allows you to adapt and extend the profile to your needs via [profile inheritance](https://www.inspec.io/docs/reference/profiles/). A sample test in InSpec looks like:
+Kubernetes is one of the leading container orchestration platforms from Google and part of [CNCF](https://www.cncf.io/). While our existing [CIS Docker Benchmark](https://github.com/dev-sec/cis-docker-benchmark) verifies a single-node deployment, the Kubernetes profile is going to verify the container orchestration platform. Now, DevSec users have the ability to secure their containers in production. The benchmarks use [InSpec](https://www.inspec.io/) which allows you to adapt and extend the profile to your needs via [profile inheritance](https://www.inspec.io/docs/reference/profiles/). A sample test in InSpec looks like:
 
 ```
 control 'cis-kubernetes-benchmark-1.1.4' do
